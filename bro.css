@@ -1,0 +1,31 @@
+.hello {
+    text-align: center;
+}
+ .border-box {
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px; 
+  }
+  .centered {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 30px; 
+  }
+  .centered-paragraph {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 12px; 
+  }
+    .container {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 0%;
+  }
+  
