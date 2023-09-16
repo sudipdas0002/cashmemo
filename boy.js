@@ -159,8 +159,3 @@ function printPage() {
   window.print();
 }
 
-function savePage() {
-toggleElements();
-// Add your save logic here
-toggleElements();
-}
