@@ -134,16 +134,12 @@ function calculateTotal(inputElement) {
   row.querySelector('input[name^="total"]').value = total.toFixed(2); // Display total with 2 decimal places
 }
 
-
 function savePage() {
-  var content = document.documentElement.outerHTML;
-  var blob = new Blob([content], {type: 'text/html'});
-  var url = URL.createObjectURL(blob);
-  var a = document.createElement('a');
-  a.href = url;
-  a.download = 'my-page.html';
-  a.click();
-}  
+    var element = document.body; // Choose the element to be saved as PDF
+
+    html2pdf(element);
+  }
+  
 
 function printPage() {
   toggleElements();
