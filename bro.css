@@ -108,8 +108,4 @@ input[class="number-2"] {
 function savePage() {
     // Your save logic here
 }
-function savePage() {
-    var element = document.body; // Choose the element to be saved as PDF
 
-    html2pdf(element);
-  }
